@@ -10,24 +10,15 @@
 <style>
   body {
     background-color: rgb(0, 0, 0);
-    /* height: 100%; */
   }
 
   h1 {
-    /* height: 40vw; */
-
     color: rgb(255, 255, 255);
-    /* background-color: rgb(83, 83, 83); */
-    /* text-align: center; */
-    /* margin: 0 auto; */
   }
 
   .owerlay {
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    height: 500px;
-    width: 500px;
+    height: 460px;
+    width: 460px;
     background-color: black;
     border-radius: 50%;
     overflow: hidden;
@@ -41,12 +32,24 @@
   }
 
   .text {
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
     text-align: center;
     margin-top: 40%;
-    /* background-color: pink; */
+  }
+
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 10px;
+    }
+
+    .owerlay {
+      height: 140px;
+      width: 140px;
+    }
+
   }
 </style>
 
@@ -57,7 +60,6 @@
       <p>We will be here soon!</p>
 
     </div>
-
   </div>
 </body>
 
