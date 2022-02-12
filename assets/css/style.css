@@ -9,6 +9,14 @@ html {
   font-size: 18px;
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100%;
+}
+
+body {
+  /* background-color: rgb(114, 114, 114); */
+  background-image: url("bg3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box-coming-canvas {
@@ -16,23 +24,29 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  margin-top: 160px;
+  /* text-align: center; */
+  /* margin-top: 160px; */
 }
 .box-coming-canvas .inner-box {
   width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .box-coming-canvas .logo {
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
+  margin: 2rem;
 }
 .box-coming-canvas .logo img {
   max-width: 160px;
 }
 .box-coming-canvas .title {
   margin-bottom: 3rem;
-  color: #011c25;
+  color: #02b6f48c;
   font-weight: 900;
   font-size: 72px;
+  text-align: center;
+  flex: 1 1 auto;
 }
 .box-coming-canvas .box-sub {
   display: flex;
@@ -74,6 +88,7 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  /* margin-top: 360px; */
 }
 .box-coming-canvas .social a {
   margin: 15px;
@@ -85,6 +100,44 @@ html {
 .box-coming-canvas .social a:hover {
   opacity: 0.8;
 }
+
+/* .intro {
+  max-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.intro::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.intro__content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.video {
+  display: none;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 56.25%;
+}
+.video__media {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
 
 @media (max-width: 768px) {
   html,
@@ -107,6 +160,6 @@ html {
     width: 35px;
   }
   .box-coming-canvas .logo img {
-    max-width: 128px;
+    max-width: 80px;
   }
 }
