@@ -91,8 +91,9 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 2rem;
+  /* margin: 2rem; */
   margin-top: 1px;
+  margin-bottom: 5px;
   z-index: 6;
   /* margin-top: 360px; */
 }
@@ -131,14 +132,14 @@ body {
   z-index: 4;
   color: #ffffff8f;
   text-align: center;
-  font-size: 75px;
+  font-size: 65px;
   font-weight: bold;
 }
 .text2 {
   z-index: 4;
   color: #ffffff8f;
   text-align: center;
-  font-size: 38px;
+  font-size: 30px;
   font-weight: bold;
 }
 .blok1 {
@@ -167,7 +168,8 @@ body {
   }
   .box-coming-canvas .social {
     justify-content: center;
-    margin-top: 60px;
+    /* margin-top: 60px; */
+    margin-bottom: 5px;
   }
   .box-coming-canvas .social a {
     margin: 10px;
