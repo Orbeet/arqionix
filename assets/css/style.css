@@ -129,15 +129,17 @@ body {
 }
 .text {
   z-index: 4;
-  color: #fff;
+  color: #ffffff8f;
   text-align: center;
   font-size: 75px;
+  font-weight: bold;
 }
 .text2 {
   z-index: 4;
-  color: #fff;
+  color: #ffffff8f;
   text-align: center;
   font-size: 38px;
+  font-weight: bold;
 }
 /* .blok1 {
   display: block;
